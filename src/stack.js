@@ -12,7 +12,7 @@ const { NotImplementedError } = require("../lib/errors");
  * stack.pop(); // undefined
  *
  */
-class Stack {
+class Stack {  //создает шаблон объета
   constructor() {
     this.stack = [];
   }
